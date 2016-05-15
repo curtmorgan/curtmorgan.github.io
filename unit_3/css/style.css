@@ -1,0 +1,60 @@
+body{
+	background: #A0D8FF;
+}
+
+header{
+	background: ;
+	padding: 5px;
+	font-family: Helvetica, Sans-Serif;
+
+}
+hr{
+	border-width: 2px;
+}
+nav {
+	text-align: right;
+	font-size:  36px;
+}
+
+.main_pic{
+	background-image: url("../images/place_holder.jpg");
+	position: relative;
+	width: 1870px;
+	height: 1100px;
+	background-size: 1870px 1100px;
+	background-repeat: no-repeat;
+	text-align: right;
+}
+
+ h1 span, h2 span{
+	color: white;
+	font: bold 48px/54px Helvetica, Sans-Serif;
+	letter-spacing: 1px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,.7);
+	padding: 0px;
+}
+span.spacer{
+  padding:0 5px;
+}
+#info{
+	text-align: center;
+	font-size: 36px;
+	font: Helvetica, Sans-Serif;;
+	font-style: italic;
+}
+
+#blog_title{
+	font-size: 24px;
+}
+#blog_text{
+	font-size: 24px;
+	position: relative;
+	left: 800px;
+	bottom: 500px;
+}
+
+footer{
+	font-size: 30px;
+	text-align: center;
+}
