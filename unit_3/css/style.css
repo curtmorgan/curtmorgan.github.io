@@ -17,7 +17,7 @@ nav {
 }
 
 .main_pic{
-	background-image: url("../images/place_holder.jpg");
+	background: url("../images/place_holder.jpg");
 	position: relative;
 	width: 1870px;
 	height: 1100px;
