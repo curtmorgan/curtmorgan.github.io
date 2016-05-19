@@ -16,6 +16,20 @@ nav {
 	font-size:  36px;
 }
 
+.button{
+	background-color: #E88E2E; 
+	color: white;
+    border: none;
+    border-radius:2em;
+    border-style: ridge;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
+
 .main_pic{
 	background: url("../images/place_holder.JPG");
 	position: relative;
@@ -30,7 +44,6 @@ nav {
 	color: white;
 	font: bold 48px/54px Helvetica, Sans-Serif;
 	letter-spacing: 1px;
-	background: rgb(0,0,0);
 	background: rgba(0,0,0,.7);
 	padding: 0px;
 }
@@ -52,6 +65,7 @@ span.spacer{
 	position: relative;
 	left: 800px;
 	bottom: 500px;
+	width:  600px;
 }
 
 footer{
