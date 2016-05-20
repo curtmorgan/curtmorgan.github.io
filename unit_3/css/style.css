@@ -1,74 +1,64 @@
 body{
 	background: #A0D8FF;
-}
-
-header{
-	background: ;
-	padding: 5px;
 	font-family: Helvetica, Sans-Serif;
-
 }
 hr{
 	border-width: 2px;
 }
 nav {
 	text-align: right;
-	font-size:  36px;
+	font-size:  2.25em;
 }
-
-.button{
-	background-color: #E88E2E; 
-	color: white;
-    border: none;
-    border-radius:2em;
-    border-style: ridge;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-}
-
-
-.main_pic{
-	background: url("../images/place_holder.JPG");
-	position: relative;
-	width: 1870px;
-	height: 1100px;
-	background-size: 1870px 1100px;
-	background-repeat: no-repeat;
-	text-align: right;
-}
-
- h1 span, h2 span{
+h1 span, h2 span{
 	color: white;
 	font: bold 48px/54px Helvetica, Sans-Serif;
 	letter-spacing: 1px;
 	background: rgba(0,0,0,.7);
-	padding: 0px;
 }
-span.spacer{
-  padding:0 5px;
-}
-#info{
-	text-align: center;
-	font-size: 36px;
-	font: Helvetica, Sans-Serif;;
-	font-style: italic;
-}
+	span.spacer{
+  		padding:0 .4em;
+	}
 
-#blog_title{
-	font-size: 24px;
+p{
+	font-style: italic;
+	font-size: 1.5em;
 }
-#blog_text{
-	font-size: 24px;
-	position: relative;
-	left: 800px;
-	bottom: 500px;
-	width:  600px;
+h3{
+	font-size: 1.5em;
+}
+ul{
+	font-size: 1.5em;
+	width:  100%;
+	text-align: left;
 }
 
 footer{
-	font-size: 30px;
 	text-align: center;
+}
+
+.button{
+	background: #E88E2E;
+	color: white;
+    border: none;
+    border-radius: 2em;
+    border-style: ridge;
+    padding: .25em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+
+.main_pic{
+	background: url("../images/place_holder.JPG");
+	width: 100%;
+	height: 68em;
+	background-repeat: no-repeat;
+	text-align: right;
+}
+
+#info{
+	text-align: center;
+	font-size: 2.25em;
+	font-style: italic;
 }
