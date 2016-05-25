@@ -69,9 +69,15 @@ a{
     display: inline-block;
     font-size: .75em;
 }
+img{
+	width: 50%;
+
+}
 
 #main_pic{
-	background: url("../images/place_holder.JPG");
+	background: url("../images/main_pic.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 100%;
 	height: 68em;
 	text-align: right;
