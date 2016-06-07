@@ -5,43 +5,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-/*Style Guides*/
-header{
-  background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
-}
-aside{
-	background-color: #FFC675;
-    border: 1px black solid;
-    padding: 20px;
-}
-div{
-  background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-}
-nav{
-	background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
-}
-article{
-	  background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
-}
-footer{
-	 background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-/*Style Guides*/
-
 
 body{
-	/*background: #D3E0FF;*/
+	background: #D3E0FF;
 	font-family: 'Kadwa', serif;
 	font-size:16px;
 }
@@ -66,11 +32,13 @@ h2 span{
 	font-size: 1.25em;	
 	letter-spacing: 1px;
 	background: rgba(0,0,0,.7);
+	margin-top: 50px;
 }
 h3{
 	font-size: 1.75em;
 	font-family: 'Sansita One', cursive;
 	font-weight: normal;
+	margin: 40px 0;
 }
 p{
 	font-size: 1.25em;
@@ -80,6 +48,11 @@ ul{
 	width:  100%;
 	text-align: left;
 	line-height: 150%;
+	list-style: none;
+}
+li{
+	margin: 40px;
+	
 }
 hr{
 	border-width: 2px;
@@ -106,13 +79,14 @@ nav a:hover {
 img{
 	width: 50%;
 	float: left;
+	 border: 1px black solid;
 }
 footer {
 	margin-top: 20px;
 	font-family: 'Sansita One', cursive;
 }
 article{
-	margin-top: 20px;
+	margin: 20px 2px;
 }
 #main_pic{
 	margin-top: 20px;
@@ -152,23 +126,16 @@ article{
 	visibility; hidden;
 }
 #two_column {
-    background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
 }
 
 #left {
-    background-color: #E582A2;
-    border: 1px black solid;
-    padding: 20px;
     float: left;
     width: 30%;
 }
 
 #right {
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
     float: right;
-    width: 62%;
+    width: 70%;
 }
